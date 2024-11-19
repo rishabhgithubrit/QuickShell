@@ -18,6 +18,6 @@ const App = () => {
       <hr style={{ marginTop: "10px" }} />
       <DashBoard />
     </div>
-  ) : <Loading />
+  ) : </>
 }
 export default App
