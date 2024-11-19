@@ -12,12 +12,12 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchAllData());
   }, [dispatch])
-  return allTickets ? (
+  return (
     <div style={{ paddingTop: "10px" }} >
       <NavBar />
       <hr style={{ marginTop: "10px" }} />
       <DashBoard />
     </div>
-  ) : </>
+  ) 
 }
 export default App
